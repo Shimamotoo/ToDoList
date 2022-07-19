@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.campo{
+    background-color: #a5def1;
+    box-shadow: 6px 5px 5px rgb(36, 36, 36);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarefa{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 90%;
+    background-color: #70afce;
+    font-weight: 900;
+    color: black;
+    font-size: 19px;
+    padding-left: 10px;
+}
+
+.to-do{
+    width: 60%;
+}
+
+.header{
+    border-bottom: 2px solid rgb(150, 150, 150);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    background-color: #3A7B99;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 10%;
+    height: 10%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button .bxs-trash{
+    font-size: 30px;
+    margin-top: 2px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #a5def1;
+}
+
+.bxs-trash:hover{
+    background-color: #8bbccc;
+}
+
+
+button .bx-list-plus{
+    font-size: 30px;
+    background-color: #3A7B99;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.bx-list-plus:hover{
+    background-color:#2e5d74;
+}
+
+.divLi {
+    background-color: #a5def1;
+    box-shadow: 6px 5px 5px rgb(36, 36, 36);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .divLi span {
+    width: 80%;
+    font-weight: 900;
+    color: black;
+    font-size: 19px;
+  }
+  
+  .divLi input {
+    width: 10%;
+    outline: none;
+    accent-color: currentcolor;
+  }
+  
+  .divLi i {
+    font-size: 22px;
+    color: brown;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .line-through {
+    text-decoration: line-through;
+  }
